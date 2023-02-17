@@ -19,10 +19,10 @@ export function ContentCornivalGroups(){
     return(
         <section className="mt-[100px] w-[1213px] m-auto">
             <div className="flex justify-between items-center">
-                <h2 className="text-[32px] text-black font-bold">Blocos recomendados</h2>
+                <h2 className="text-[32px] text-black dark:text-white font-bold">Blocos recomendados</h2>
                 <div className="font-bold">
                     <button className="bg-purple text-white px-6 py-1 rounded">Lista</button>
-                    <button className="px-6 py-1 rounded bg-white text-purple">Mapa</button>
+                    <button className="px-6 py-1 rounded bg-white dark:bg-black text-purple">Mapa</button>
                 </div>
             </div>
             <div className='grid grid-cols-3 gap-8 mt-10'>{cards}</div>

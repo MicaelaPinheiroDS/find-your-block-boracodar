@@ -8,17 +8,17 @@ export function Header(){
             <div>
                 <div className='relative z-10 mt-[100px] flex flex-col items-center text-center'>
                     <h2 className="uppercase font-medium text-base leading-[160%] text-red mb-[18px]">Find you block</h2>
-                    <h1 className=' text-black text-4xl font-bold leading-[125%] w-[647px]'>Encontre os <span className='text-purple'>melhores blocos</span> de carnaval de 2023</h1>
+                    <h1 className=' text-black dark:text-white text-4xl font-bold leading-[125%] w-[647px]'>Encontre os <span className='text-purple'>melhores blocos</span> de carnaval de 2023</h1>
                 </div>
                 <div className='relative z-10 p-10 flex items-center gap-3'>
                     <div className='relative flex items-center'>
                         <div className='bg-[url(./src/assets/img/icon-search.svg)] bg-no-repeat w-6 h-6 absolute left-0 ml-[14px]'></div>
-                        <input className='w-[348px] py-3 pl-[50px] pr-2' type="text" placeholder='Pesquise por nome' />
+                        <input className='w-[348px] py-3 pl-[50px] pr-2 dark:bg-black' type="text" placeholder='Pesquise por nome' />
                     </div>
                     <div className='relative flex items-center'>
                         <div className='bg-[url(./src/assets/img/location.svg)] bg-no-repeat w-6 h-6 absolute left-0 ml-[14px]'></div>
                         <div className='bg-[url(./src/assets/img/chevron-down.svg)] bg-no-repeat w-6 h-6 absolute right-0 m-[12px] cursor-pointer'></div>
-                        <input className='w-[348px] py-3 pl-[50px] pr-2' type="text" placeholder='Selecione uma cidade' />
+                        <input className='w-[348px] py-3 pl-[50px] pr-2 dark:bg-black' type="text" placeholder='Selecione uma cidade' />
                     </div>
                    
                     <button className='uppercase bg-purple text-white px-8 py-3 rounded'>Buscar agora</button>
