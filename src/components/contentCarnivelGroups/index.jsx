@@ -9,7 +9,7 @@ export function ContentCornivalGroups(){
                     <h3 className="card-title text-[20px] leading-[140%] font-bold">{card.title}</h3>
                     <p className="card-text text-base leading-[160%]">{card.description}</p>
                     <div className='flex  gap-2'>
-                        <img src="./src/assets/img/location.svg" alt="" />
+                        <img src="./public/static/img/location.svg" alt="" />
                         <p className=' text-base leading-[160%] opacity-75'>{card.localization}</p>
                     </div>
                 </div>
