@@ -1,10 +1,14 @@
 import { useState } from 'react'
 import { Header } from './components/header'
-
+import { ContentCornivalGroups } from './components/contentCarnivelGroups'
 export function App() {
 
   return (
-  <Header />
+    <div>
+        <Header />
+        <ContentCornivalGroups />
+    </div>
+
   )
 }
 
