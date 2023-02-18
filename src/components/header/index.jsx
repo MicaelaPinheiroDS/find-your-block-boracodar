@@ -2,8 +2,8 @@ export function Header(){
     return (
         <header className="relative flex justify-center  w-screen h-[532px]">
             <div className="absolute z-0 w-full h-full">
-                <img className="absolute top-0 left-0" src="./public/static/img/ilustra-01.png" alt="" />
-                <img className="absolute bottom-0 right-0" src="./public/static/img/ilustra-02.png" alt="" />
+                <div className="absolute top-0 left-0 bg-[url(./public/static/img/ilustra-01.png)] w-[407px] h-[345px] bg-no-repeat"></div>
+                <div className="absolute bottom-0 right-0 bg-[url(./public/static/img/ilustra-02.png)] w-[414px] h-[330px]"></div>
             </div>
             <div>
                 <div className='relative z-10 mt-[100px] flex flex-col items-center text-center'>
