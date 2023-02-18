@@ -4,14 +4,13 @@
 :root{
   font-family: 'Roboto', sans-serif;
 }
+body{
+  overflow: overlay;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 7px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  height: 7px;
 }
  
 /* Handle */

@@ -1,5 +1,5 @@
 import { listCarnivalGroups } from './ListCarnivalGroups'
-
+import { MyToggle } from '../darkModeToggle'
 export function ContentCornivalGroups(){
     const cards  = listCarnivalGroups.map(card => {
         return (
@@ -20,7 +20,8 @@ export function ContentCornivalGroups(){
         <section className="mt-[100px] w-[1213px] m-auto">
             <div className="flex justify-between items-center">
                 <h2 className="text-[32px] text-black dark:text-white font-bold">Blocos recomendados</h2>
-                <div className="font-bold">
+                <div className="font-bold flex gap-2 items-center">
+                    <MyToggle />
                     <button className="bg-purple text-white px-6 py-1 rounded">Lista</button>
                     <button className="px-6 py-1 rounded bg-white dark:bg-black text-purple">Mapa</button>
                 </div>
