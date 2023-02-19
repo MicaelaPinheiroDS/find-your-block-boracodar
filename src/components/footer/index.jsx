@@ -1,7 +1,7 @@
 export function Footer(){
     return (
         <footer className="relative w-full h-[350px]  mt-[100px]">
-            <div className="absolute  w-full h-full bg-[url(./src/assets/img/ilustra-01.png)] bg-no-repeat origin-botton rotate-180"></div>
+            <div className="absolute  w-full h-full bg-illustration-1 bg-no-repeat origin-botton rotate-180"></div>
             <div className="w-[1213px] pt-32 m-auto flex justify-between items-center">
                 <div className="flex flex-col items-center gap-7">
                     <h1><img src="./src/assets/img/icon-carnaval.png" alt=""></img></h1>
