@@ -2,13 +2,14 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-
+    "./src/**/*.{js,ts,jsx,tsx}", 
   ],
+  darkMode: 'class',
   theme: {
     colors: {
       'red': '#E45858',
       'purple': '#6246EA',
+      'orange': 'orange',
       'black': '#121214',
       'white': 'white',
     },

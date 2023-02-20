@@ -1,6 +1,6 @@
 import { listCarnivalGroups } from './ListCarnivalGroups'
-import { MyToggle } from '../darkModeToggle'
-export function ContentCornivalGroups(){
+import { SwitchTheme } from '../SwitchTheme'
+export function ContentCornivalGroups(props){
     const cards  = listCarnivalGroups.map(card => {
         return (
         <div className="card" key={card.id}>
@@ -10,7 +10,7 @@ export function ContentCornivalGroups(){
                     <p className="card-text text-base leading-[160%]">{card.description}</p>
                     <div className='flex  gap-2'>
                         <img src="./images/location.svg" alt="" />
-                        <p className=' text-base leading-[160%] opacity-75'>{card.localization}</p>
+                        <p className=' text-base leading-[160%] opacity-75' >{card.localization}</p>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@ export function ContentCornivalGroups(){
             <div className="flex justify-between items-center">
                 <h2 className="text-[32px] text-black dark:text-white font-bold">Blocos recomendados</h2>
                 <div className="font-bold flex gap-2 items-center">
-                    <MyToggle />
+                    <SwitchTheme />
                     <button className="bg-purple text-white px-6 py-1 rounded">Lista</button>
                     <button className="px-6 py-1 rounded bg-white dark:bg-black text-purple">Mapa</button>
                 </div>
