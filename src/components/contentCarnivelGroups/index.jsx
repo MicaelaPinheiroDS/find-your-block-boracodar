@@ -17,7 +17,7 @@ export function ContentCornivalGroups(){
         )
     })
     return(
-        <section className="mt-[100px] lg:w-[1213px] m-auto">
+        <section className="mt-[100px] lg:w-fit m-auto max-w-[1200px]">
             <div className="flex flex-col md:flex-row md:text-center justify-between items-center mx-10 lg:mx-0">
                 <h2 className="text-[32px] text-black dark:text-white font-bold">Blocos recomendados</h2>
                 <div className="font-bold flex gap-2 items-center">
