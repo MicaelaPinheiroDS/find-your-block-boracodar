@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Switch } from '@headlessui/react'
 
 export function SwitchTheme() {
-  const [theme, setTheme] = useState()
+  const [theme, setTheme] = useState('')
   const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
   useEffect(() => {
     if((theme === 'dark' ||theme === '') || (!theme && systemTheme)){
