@@ -11,11 +11,11 @@ export function Header(){
                     <h1 className=' text-black dark:text-white text-4xl font-bold leading-[125%] sm:w-[647px]'>Encontre os <span className='text-purple'>melhores blocos</span> de carnaval de 2023</h1>
                 </div>
                 <div className='relative z-10 py-10 md:p-10 flex flex-col lg:flex-row items-center gap-3'>
-                    <div className='relative flex items-center'>
+                    <div className='relative flex items-center max-w-[348px] w-full'>
                         <div className='bg-icon-search bg-no-repeat w-6 h-6 absolute left-0 ml-[14px]'></div>
                         <input className='max-w-[348px] w-full py-3 pl-[50px] pr-2 dark:bg-black' type="text" placeholder='Pesquise por nome' />
                     </div>
-                    <div className='relative flex items-center'>
+                    <div className='relative flex items-center max-w-[348px] w-full'>
                         <div className='bg-icon-location bg-no-repeat w-6 h-6 absolute left-0 ml-[14px]'></div>
                         <div className='bg-chevron-down bg-no-repeat w-6 h-6 absolute right-0 m-[12px] cursor-pointer'></div>
                         <input className='max-w-[348px] w-full py-3 pl-[50px] pr-2 dark:bg-black' type="text" placeholder='Selecione uma cidade' />
